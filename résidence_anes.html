@@ -16,30 +16,40 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-custom shadow">
-    <a class="navbar-brand" href="#">AZprom</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-custom shadow">
+      <a class="navbar-brand" href="#">AZprom</a>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Accueil</a>
-        </li>
-        <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-hammer"></i> Projets</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Résidence Anes</a>
-  </li>
-
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html"><i class="fas fa-phone"></i> Contactez nous</a>
-        </li>
-
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item active"><a class="nav-link px-2" href="www.fb.com"><span class="fab fa-facebook-square"></span></a></li>
+        <li class="nav-item active"><a class="nav-link px-2" href="#"><span class="fas fa-envelope"></span></a></li>
+        <li class="nav-item active"><a class="nav-link px-2" href="www.twitter.com"><span class="fab fa-twitter-square"></span></a></li>
       </ul>
-    </div>
-  </nav>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item navbar-menu active">
+            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Accueil</a>
+          </li>
+          <li class="nav-item navbar-menu active dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-hammer"></i> Projets</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="résidence_anes.html">Résidence Anes</a>
+          </li>
+          <li class="nav-item navbar-menu active">
+            <a class="nav-link" href="index.html"><i class="fas fa-phone"></i> Contactez nous</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+
+  </div>
 
   <!-- vid Header -->
   <section id="header">
@@ -72,24 +82,24 @@
       </div>
 
       <div class="row feature-list">
-        <div class="col-sm-4">
+        <div class="col-lg-4">
           <div class="intro-feature">
             <i class="feature-icon fas fa-building"></i>
-            <h4>112 Legements</h4>
+            <h5>112 Legements</h5>
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-lg-4">
           <div class="intro-feature">
             <i class="feature-icon fas fa-ruler-combined"></i>
-            <h4>F4 en Suplex <br> F6 en Duplex</h4>
+            <h5>F4 en Suplex <br> F6 en Duplex</h5>
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-lg-4">
           <div class="intro-feature">
             <i class="feature-icon fas fa-leaf"></i>
-            <h4>Calme avec vue<br>panoramique sur mer</h4>
+            <h5>Calme avec vue<br>panoramique sur mer</h5>
           </div>
         </div>
       </div>
@@ -132,7 +142,8 @@
         <div class="commodity-list col-md-6">
           <div class="comodity-items text-left">
             <ul>
-              <p><i class="check-icon fas fa-check"></i> Cuisine équipée</p></li>
+              <p><i class="check-icon fas fa-check"></i> Cuisine équipée</p>
+              </li>
               <p><i class="check-icon fas fa-check"></i> Chauffage central individuel</p>
               <p><i class="check-icon fas fa-check"></i> Placard dans chaque chambre avec portes coulissantes</p>
               <p><i class="check-icon fas fa-check"></i> Fenêtre en aluminium avec double vitrage</p>
@@ -151,8 +162,50 @@
   </section>
 
 
-  <!-- Contact us  -->
+  <!-- Gallery -->
 
+
+  <!-- Footer -->
+  <footer>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-element col-lg-4">
+            <h4>AZprom</h4>
+            <hr class="light">
+            <p>azizprom@yahoo.fr</p>
+            <p>05 61 91 03 83</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d690.8136250927907!2d-0.6272611708081735!3d35.702387087818416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQyJzA4LjYiTiAwwrAzNyczNi4yIlc!5e1!3m2!1sen!2sdz!4v1556710108839!5m2!1sen!2sdz"
+              width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+
+          <div class="footer-element col-lg-4">
+            <h4>Heures d'ouverture</h4>
+            <hr class="light">
+            <ul>
+                <p>Dimanche de 9h à 16h</p>
+                <p>Lundi de 9h à 16h</p>
+                <p>Mardi de 9h à 16h</p>
+                <p>Mercredi de 9h à 16h</p>
+                <p>Jeudi de 9h à 16h</p>
+            </ul>
+          </div>
+
+          <div class="footer-element col-lg-4">
+            <h4>Nous trouver à:</h4>
+            <hr class="light">
+            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+          </div>
+
+          <div class="footer-element col-lg-12">
+            <hr class="light">
+            <p>&copy; 2019 Copyright : www.azprom.com </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
 
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
