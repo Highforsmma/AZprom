@@ -3,31 +3,29 @@ body, html {
   width: 100%;
 }
 
-
 /* fonts */
-h2{
-  font-family:'Montserrat';
+h2 {
+  font-family: 'Montserrat';
   font-weight: 700;
 }
-.residence{
-font-weight: 300;
+
+.residence {
+  font-weight: 300;
 }
-p{
+
+p {
   font-family: 'Raleway';
 }
 
 /* navbar */
-.navbar-custom{
+.navbar {
   background-color: #F62C35;
 }
 
-.navbar {
-  padding: 0.4rem 0.8em;
+.nav-item {
+  margin-right: 10px;
 }
 
-.navbar-menu {
-  padding: 10px 25px 10px 0;
-}
 
 header {
   position: relative;
@@ -73,6 +71,7 @@ header .overlay {
   header {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
   }
+
   header video {
     display: none;
   }
@@ -85,16 +84,16 @@ header .overlay {
   text-align: center;
 }
 
-.intro{
+.intro {
   position: relative;
 }
 
 .intro:before {
-  content:"";
+  content: "";
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left:-3%;
+  margin-left: -3%;
   width: 6%;
   height: 2px;
   background-color: #F62C35;
@@ -108,11 +107,11 @@ header .overlay {
 }
 
 .intro:after {
-  content:"";
+  content: "";
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left:-12%;
+  margin-left: -12%;
   width: 24%;
   height: 2px;
   background-color: #e1e1e1e1;
@@ -127,21 +126,19 @@ header .overlay {
   letter-spacing: 0.025em;
 }
 
-
-
 .intro-feature {
   position: relative;
-  margin:40px;
+  margin: 40px;
 }
 
-.intro-feature:hover i{
+.intro-feature:hover i {
   font-size: 2em;
   color: white;
   background-color: #F62C35;
   transition: 0.5s ease;
 }
 
-.intro-feature i{
+.intro-feature i {
   text-align: center;
   font-size: 2em;
   background: white;
@@ -153,46 +150,46 @@ header .overlay {
   line-height: 2.2em;
 }
 
-.feature-icon {
-  margin-bottom: 20px;
+.feature-list {
+  margin: 30px;
 }
 
-
 /* Google map  */
-#map{
-  margin-bottom:70px;
+#map {
+  margin-bottom: 70px;
   text-align: center;
 }
 
 .google-maps {
-      position: relative;
-      padding-bottom: 35%; // This is the aspect ratio
-      height: 0;
-      overflow: hidden;
-  }
-  .google-maps iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100% !important;
-      height: 100% !important;
-  }
+  position: relative;
+  padding-bottom: 420px; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
 
 /* Commodities */
-.anes-plan{
+.anes-plan {
   padding: 50px 0px 50px 0px;
 }
-.commodity-list , .comodity-title{
+
+.commodity-list, .comodity-title {
   text-align: center;
 }
 
-
 .comodity-title:before {
-  content:"";
+  content: "";
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left:-3%;
+  margin-left: -3%;
   width: 6%;
   height: 2px;
   background-color: #F62C35;
@@ -206,40 +203,38 @@ header .overlay {
 }
 
 .comodity-title:after {
-  content:"";
+  content: "";
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left:-12%;
+  margin-left: -12%;
   width: 24%;
   height: 2px;
   background-color: #e1e1e1e1;
 }
 
-
-
 .check-icon {
   color: #F62C35;
-  margin-right:20px;
+  margin-right: 20px;
 }
+
 .comodity-items {
   margin-top: 30px;
+  box-shadow: 7px 7px 14px grey;
+  padding: 10px 0;
 }
 
 /* Gallery */
-#gallery {
-  text-align: center;
+#gallery .container{
+padding: 50px 20px;
 }
-
-
-
 
 /* Footer */
 #footer {
   text-align: center;
-background-color: #3E4551;
-color: white;
-padding-top:40px;
+  background-color: #3E4551;
+  color: white;
+  padding-top: 40px;
 }
 
 table {
@@ -250,18 +245,18 @@ table {
   margin-top: 50px;
 }
 
-hr{
+hr {
   color: white;
   background-color: white;
   height: 2px;
 }
 
-#footer .fab{
-  font-size:2em;
+#footer .fab {
+  font-size: 2em;
   padding: 1em;
   color: white;
 }
 
-.container .fa-facebook-square{
+.container .fa-facebook-square {
   text-shadow: 3px 3px 16px #C0C0C0;
 }
